@@ -16,7 +16,7 @@ import time
 
 start = time.time()
 
-batch_size = 128
+batch_size = 75 # Reduced batch size from 128 to work with GPU
 num_classes = 10
 epochs = 12
 
